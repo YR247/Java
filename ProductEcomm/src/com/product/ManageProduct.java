@@ -11,8 +11,8 @@ public class ManageProduct {
 		ProductService productservice = new ProductService();
 		
 		/* Add few product records in database */
-		Integer proID1 = ProductService.addProduct(1,"Chair",200);// asssinged values from here
-		Integer proID2 = ProductService.addProduct(2,"Table",500);// asssinged values from here
+		Integer proID1 = ProductService.addProduct(1,"Lamp",200);// asssinged values from here
+		Integer proID2 = ProductService.addProduct(2,"Painting",500);// asssinged values from here
 	
 		List<Integer> proinfo = new ArrayList<Integer>();
 		
